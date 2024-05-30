@@ -1,6 +1,7 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-
+//Correccion Prueba B1
+//Ariel Ashqui
 public class Hotel {
     private String nombre;
     private int telefono;
@@ -101,23 +102,18 @@ public class Hotel {
         hotel7.imprimirHotel();
 
         // Modificar todos los atributos de al menos tres objetos con el valor de NULL
-        hotel3.setNombre(null);
+//Desde aqui borre lls null
         hotel3.setTelefono(0);
         hotel3.setNumeroHabitaciones(0);
         hotel3.setPrecio(0.0);
-        hotel3.setCiudad(null);
 
-        hotel4.setNombre(null);
         hotel4.setTelefono(0);
         hotel4.setNumeroHabitaciones(0);
         hotel4.setPrecio(0.0);
-        hotel4.setCiudad(null);
 
-        hotel5.setNombre(null);
         hotel5.setTelefono(0);
         hotel5.setNumeroHabitaciones(0);
         hotel5.setPrecio(0.0);
-        hotel5.setCiudad(null);
 
         // Imprimir los objetos modificados
         hotel3.imprimirHotel();
